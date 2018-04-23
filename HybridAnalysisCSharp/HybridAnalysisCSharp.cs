@@ -34,7 +34,7 @@ namespace HybridAnalysisCSharp
 
       if (args.Length > 0)
       {
-        string userAgent = "HybridAnalysisCSharp [DEV BUILD]";
+        string userAgent = "HybridAnalysisCSharp v0.1";
         string apiURI = "https://www.hybrid-analysis.com/api/v2/search/hash";
         string ourHash = args[0];
         string myParams = "hash=" + ourHash;
